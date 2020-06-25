@@ -1,0 +1,42 @@
+body {
+  margin: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #00B7FF; }
+
+div#here, div#sendMessage {
+  width: 70%;
+  background-color: #f5f5f5;
+  color: #2f2f2f;
+  border: 1pt solid black;
+  margin: 20px 15%;
+  min-height: 20px; }
+  div#here div, div#sendMessage div {
+    float: left;
+    margin: 0px;
+    width: 50%;
+    height: 100%; }
+  div#here div#right, div#sendMessage div#right {
+    text-align: right; }
+  div#here h2, div#sendMessage h2 {
+    text-align: right; }
+
+div#form {
+  width: 70%;
+  background-color: #f5f5f5;
+  color: #2f2f2f;
+  margin: 20px 15%; }
+  div#form div {
+    width: 50%;
+    margin: 0px 25%;
+    text-align: center; }
+    div#form div input {
+      padding: 2px 2px;
+      border: 1px solid grey;
+      width: 100%;
+      margin: 2px 0px;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box; }
+
+/*# sourceMappingURL=style.css.map */

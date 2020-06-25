@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    body
+        div(id="here")
+            a(href='/')
+                div Back
+            div(id='right') Send Message
+        div(id="form")
+            form(method="POST" action='/new')
+                div
+                    input(type="text", name="user" placeholder="Your Name")
+                div
+                    input(type="text", name="text" placeholder="Your Message")
+                div
+                    input(type="submit", value="Send Message")
